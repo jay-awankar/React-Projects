@@ -1,0 +1,35 @@
+* {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: burlywood;
+  font-size: xx-large;
+  border-radius: 0.5rem;
+}
+
+/* .result {
+  position: relative;
+}
+
+.resetbtn {
+  position: sticky;
+  bottom: 10rem;
+} */
