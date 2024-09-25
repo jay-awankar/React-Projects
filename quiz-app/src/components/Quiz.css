@@ -1,0 +1,53 @@
+h1 {
+  font-size: 60px;
+}
+
+.startBtn {
+  width: 200px;
+  background-color: rgb(127, 255, 168);
+  border-radius: 1rem;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+.startBtn:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 40px;
+
+  border: 1px solid black;
+}
+
+.que {
+  font-size: x-large;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(183, 255, 206, 0.774);
+}
+
+li:hover {
+  background-color: rgb(159, 255, 190);
+}
+
+.selected {
+  background-color: rgb(118, 255, 161);
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: rgb(127, 255, 168);
+  font-size: larger;
+
+  border-radius: 1rem;
+}
